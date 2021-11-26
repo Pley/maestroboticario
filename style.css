@@ -1,0 +1,78 @@
+.container{
+    max-width: 1900px;
+}
+
+header {
+    background-image: url('images/bmb.jpg');
+    background-size:cover;
+    height:100vh;
+    width: 100%;
+}
+
+.bloque-der{
+    text-align: right;
+}
+
+.title{
+    font-size: 85px;
+    font-weight: bold;
+    
+}
+
+.title-subti{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.title-parraf{
+    font-size: 20px;
+
+}
+
+.title, .title-subti, .title-parraf, .vermas{
+    color: white;
+    
+}
+
+.btn{
+    background-color: #54cf17;
+    border-radius: 30px;
+    color: white;
+
+    padding: 6px 40px;
+    font-size: 20px;
+}
+
+.logo{
+    width: 120px;
+}
+
+#row-bigpromo{
+    background-color: #0172d9;
+}
+
+#row-minpromo{
+    /* background-color: #0172d9; */
+    background-image: url('images/bmb.jpg');
+    background-size:cover;
+    /* height:800px; */ 
+}
+
+.row{
+    margin: 0;
+}
+
+#row-tyc{
+    background-color: #0172d9;
+    color: white;
+}
+
+.text-tyc{
+    color: #54cf17;
+    font-weight: bold;
+}
+
+.bi bi-chevron-compact-down{
+    color: white;
+}
