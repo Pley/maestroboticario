@@ -1,78 +1,196 @@
-.container{
-    max-width: 1900px;
+.container {
+    max-width: 1100px;
 }
-
 header {
-    background-image: url('images/bmb.jpg');
-    background-size:cover;
-    /* height:100vh; */
-    width: 100%;
+    /* background-image: url('assets/bmb.jpg'); */
+    background-color: #5080E5;
+    /* background-size: cover;*/
+    /* height: 550px; */
+    position: relative;
 }
 
-.bloque-der{
-    text-align: right;
-}
-
-.title{
-    font-size: 85px;
-    font-weight: bold;
-    
-}
-
-.title-subti{
-    font-size: 30px;
-    font-weight: bold;
-
-}
-
-.title-parraf{
-    font-size: 20px;
-
-}
-
-.title, .title-subti, .title-parraf, .vermas{
+.title-color, .subti{
     color: white;
-    
 }
 
-.btn{
-    background-color: #54cf17;
-    border-radius: 30px;
-    color: white;
+.title {
+    color: #5080E5;
+    font-size: 1.95rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
-    padding: 6px 40px;
-    font-size: 20px;
+.eltitulo{
+    padding: 1px;
+    font-size: 3.75rem;
+}
+
+.subti{
+    padding: 0px;
+    margin-bottom: 5px;
+    font-size: 1.65rem;
+}
+
+.btn {
+    background-color: #5080E5;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btnpro{
+    background-color: #0286fe;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.green{
+    background-color: #54CF17;
+    border-radius: 20px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .logo{
     width: 120px;
 }
 
-#row-bigpromo{
-    background-color: #0172d9;
+#row-bigpromocion{
+    background-color: #0286fe;
 }
 
-#row-minpromo{
-    /* background-color: #0172d9; */
-    background-image: url('images/bmb.jpg');
-    background-size:cover;
-    /* height:800px; */ 
+#row-promociones{
+    background-color: #00517d;
 }
 
 .row{
     margin: 0;
 }
 
-#row-tyc{
-    background-color: #0172d9;
+#row-cursos img{
+    
+}
+
+#row-pepito{
+    background-image: url('assets/bmb.jpg');
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+#row-nosotros{
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+#row-servicios{
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+#row-frace{
+    background-image: url('assets/fondo3.png');
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+}
+#row-contacto{
+    background-image: url('assets/fondo2.png');
+    background-size: cover;
+    padding-top: 140px !important;
+    padding-bottom: 140px !important;
+}
+
+#row-nosotros img{
+    border-radius: 50%;
+    width: 300px;
+}
+#row-servicios img{
+    border-radius: 50%;
+    width: 300px;
+}
+
+
+#row-nosotros p{
+    font-size: 14px;
+}
+
+#row-servicios p{
+    font-size: 14px;
+}
+
+
+#row-datos{
+    background-color: #5080E5;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+.circulo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #B3FBFF;
+}
+
+.form-control{
+    border-radius: 50px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+footer a{
+    text-decoration: none;
     color: white;
 }
 
-.text-tyc{
-    color: #54cf17;
-    font-weight: bold;
+@media(max-width:992px){
+    .navbar-nav{
+        background-color: #5080E5;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;    
+        padding-left: 20px;    
+    }
+}
+nav{
+    z-index: 100;
 }
 
-.bi bi-chevron-compact-down{
-    color: white;
+
+/* Agregado de otro proyecto */
+img{
+	max-width: 100%;
 }
+
+.gallery{
+	background-color: #dbddf1;
+	/* padding: 80px 0; */
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
