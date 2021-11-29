@@ -174,6 +174,7 @@ p{
     color: #54CF17;
     font-size: 24px;
     font-weight: bold;
+    text-align : justify;
 }
 
 .form-control{
@@ -181,7 +182,7 @@ p{
 }
 
 footer{
-    background-color: black;
+    background-color: #00517d;
     padding-top: 100px !important;
     padding-bottom: 100px !important;
 }
@@ -191,7 +192,35 @@ footer a{
     color: white;
 }
 
+
+@media(max-width:576px){
+
+    #row-frace h2{
+        margin-bottom: 30px !important;
+    }
+
+    .textgreen{
+        text-align: center;
+    }
+
+    .text-white{
+        text-align: center;
+        
+    }
+
+    #row-pepito{
+        padding-top: 50px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .mob-bot a{
+        margin-bottom: 30px !important;
+    }
+
+}
+
 @media(max-width:992px){
+
 
     .gre-ale{
         text-align: center;
@@ -210,20 +239,6 @@ footer a{
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;    
         padding-left: 20px;  
-    }
-
-    .textgreen{
-        text-align: center;
-    }
-
-    .text-white{
-        text-align: center;
-        
-    }
-
-    #row-pepito{
-        padding-top: 50px !important;
-        padding-bottom: 10px !important;
     }
 
 }
