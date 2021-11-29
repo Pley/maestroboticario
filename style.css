@@ -41,13 +41,13 @@ header {
     color: #ffffff;
 }
 
-a:link {
+a:link, a:hover {
     color: #ffffff;
 }
 
 
-.blockredessociales{
-
+p{
+    text-justify: auto;
 }
 
 .btn {
@@ -121,12 +121,17 @@ a:link {
     padding-bottom: 100px !important;
 }
 #row-frace{
-    background-image: url('assets/fondo3.png');
+    background-image: url('assets/bmb.jpg');
     background-size: cover;
     background-position: center;
-    padding-top: 200px !important;
-    padding-bottom: 200px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
 }
+
+#row-frace h2{
+    margin-bottom: 100px !important;
+}
+
 #row-contacto{
     background-image: url('assets/fondo2.png');
     background-size: cover;
@@ -163,6 +168,12 @@ a:link {
     height: 140px;
     border-radius: 50%;
     background-color: #B3FBFF;
+}
+
+.textgreen{
+    color: #54CF17;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .form-control{
