@@ -23,7 +23,7 @@ header {
 
 .eltitulo{
     padding: 1px;
-    font-size: 3.75rem;
+    font-size: 45px;
 }
 
 .subti{
@@ -68,7 +68,7 @@ p{
     padding-right: 20px;
 }
 
-.green{
+.btn-gre-pa{
     background-color: #54CF17;
     border-radius: 30px;
     border: 0px;
@@ -192,12 +192,40 @@ footer a{
 }
 
 @media(max-width:992px){
+
+    .gre-ale{
+        text-align: center;
+    }
+
+    .eltitulo, .parrafo, .subti{
+        text-align: center;
+    }
+
+    .btn-gre-pa{
+        text-align: center;
+    }
+
     .navbar-nav{
         background-color: #5080E5;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;    
-        padding-left: 20px;    
+        padding-left: 20px;  
     }
+
+    .textgreen{
+        text-align: center;
+    }
+
+    .text-white{
+        text-align: center;
+        
+    }
+
+    #row-pepito{
+        padding-top: 50px !important;
+        padding-bottom: 10px !important;
+    }
+
 }
 nav{
     z-index: 100;
