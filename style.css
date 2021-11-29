@@ -34,6 +34,20 @@ header {
 
 .parrafo{
     color: #ffffff;
+    font-size: 20px;
+}
+
+.redessociales{
+    color: #ffffff;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+
+.blockredessociales{
+
 }
 
 .btn {
@@ -56,15 +70,16 @@ header {
 
 .green{
     background-color: #54CF17;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 0px;
     color: white;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
 }
+
 
 .logo{
     width: 120px;
