@@ -3,7 +3,7 @@
 }
 header {
     /* background-image: url('assets/bmb.jpg'); */
-    background-color: #5080E5;
+    background-color: #0286FE;
     /* background-size: cover;*/
     /* height: 550px; */
     position: relative;
@@ -30,6 +30,10 @@ header {
     padding: 0px;
     margin-bottom: 5px;
     font-size: 1.65rem;
+}
+
+.parrafo{
+    color: #ffffff;
 }
 
 .btn {
